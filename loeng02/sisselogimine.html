@@ -1,0 +1,44 @@
+<title>Autentimine</title>
+<link rel="stylesheet" href="sisselogimine.css">
+</head>
+
+<body>
+<div id="konteiner">
+    <img src="logisisse.jpg" alt="logisisse" width="100">
+    <h1>Logi sisse
+        <form action="http://localhost/autentimine" method="get">
+            <label for="nimi">Kasutaja</label> 
+            <input type="text" id="nimi" name="kasutaja" placeholder="kasutaja"><br>
+            <label for="nimi">Nimi</label> 
+            <input type="text" id="nimi" name="nimi" placeholder="nimi"><br>
+            <label class="salas6na" for="salas6na">Salasõna</label>
+            <input type="password" id="salas6na" name="salas6na" placeholder="Salasõna"><br>
+            <label class="salas6na2" for="salas6nateist">Salasõna teist korda</label>
+            <input type="password" id="salas6nateist" name="salas6nateist" placeholder="Salasõna teist korda"><br>
+            
+            
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label class="checkbox" for="vehicle1"></label>
+<label for="vehicle1">Olen nõus enda infot saatma</label><br>
+<input type="submit" value="Submit">
+
+
+<p>Vali palun alltoodud valikute seast enda lemmik puuvili</p>
+
+<form action="/action_page.php">
+  <label for="puuvili">Vali puuvili:</label>
+  <select name="puuvili" id="puuvili">
+    <option value="mango">Mango</option>
+    <option value="apelsin">Apelsin</option>
+    <option value="banaan">Banaan</option>
+    <option value="kreegid">Kreegid</option>
+  </select>
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+        </form>
+    </h1>
+</div>
+</body>
+
+</html>
