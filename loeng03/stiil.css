@@ -1,0 +1,40 @@
+html{
+    font-size: 14px;
+}
+div {
+    box-sizing: border-box;
+}
+body {
+    background-color: lightseagreen;
+    font-family: Roboto, sans-serif;
+    background-image: url('taustapilt.jpg');
+    background-size: cover;
+}
+
+h1, h2{
+    font-family: Karla, sans-serif
+}
+.konteiner {
+    width: 80%;
+    max-width: 1000px;
+    background-color: lightgrey;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-top: 30px;
+    }
+
+.uudis-autor, .uudis-kuupaev{
+    font-size: 0.8rem;
+    color: rgb(21, 21, 87);
+    font-size: bold;
+    display: inline-block;
+    width: 49%;
+}
+.uudis-kuupaev{
+    font-style: italic;
+    text-align: right;
+}
+.uudis-sisu{
+    font-size: 1.2rem;
+}
