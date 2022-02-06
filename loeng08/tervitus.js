@@ -6,14 +6,6 @@ while (kasutajaNimi == '') {
 let tervitus = "Tere <strong>" + kasutajaNimi + "</strong>"
 let tervitusElement = document.getElementById("tervitus")
 
-if (kasutajaNimi.length <6) {
-    tervitus = "Küll sul on ilus lühike nimi"
-} 
-
-if (kasutajaNimi.length >6) {
-    tervitus = "Küll sul on  suurepärane pikk nimi"
-}  
-
 
 if (kasutajaNimi == "Nipitiri") {
     tervitus = 'Tere sõber'
