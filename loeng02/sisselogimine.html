@@ -1,44 +1,51 @@
-<title>Autentimine</title>
-<link rel="stylesheet" href="sisselogimine.css">
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registreerimine</title>
+    <link rel="stylesheet" href="sisselogimine.css">
+    <style>
+        body {
+          background-image: url('taustapilt.jpg');
+        }
+        </style>
 </head>
-
 <body>
-<div id="konteiner">
-    <img src="logisisse.jpg" alt="logisisse" width="100">
-    <h1>Logi sisse
+    
+    <div class="konteiner">
+        <img src="logo.svg" alt=""width="150" class="center">
+        <h2>
+            registreerimine
+        </h2>
         <form action="http://localhost/autentimine" method="get">
-            <label for="nimi">Kasutaja</label> 
-            <input type="text" id="nimi" name="kasutaja" placeholder="kasutaja"><br>
-            <label for="nimi">Nimi</label> 
-            <input type="text" id="nimi" name="nimi" placeholder="nimi"><br>
-            <label class="salas6na" for="salas6na">Salasõna</label>
-            <input type="password" id="salas6na" name="salas6na" placeholder="Salasõna"><br>
-            <label class="salas6na2" for="salas6nateist">Salasõna teist korda</label>
-            <input type="password" id="salas6nateist" name="salas6nateist" placeholder="Salasõna teist korda"><br>
+            <strong><label for="nimi">KASUTAJANIMI</label> <br></strong>
+            <input type="text" id="nimi" name="nimi" placeholder="Kasutaja"><br>
+            <strong><label for="nimi">NIMI</label> <br></strong>
+            <input type="text" id="nimi" name="nimi" placeholder="Nimi"><br>
+            <strong><label class="ruum-yleval" for="email">EMAIL</label> <br></strong>
+            <input type="email" id="email" name="email" placeholder="sinumeil@domeen.ee"><br>
+            <strong><label class="ruum-yleval" for="nimi">SALASÕNA</label></strong> <br>
+            <input type="password" id="salas6na" name="salas6na" placeholder="Salasõna"> <br>
+            <input type="password" id="salas6na" name="salas6na" placeholder="Salasõna teist korda"> <br>
+            <strong><label class="ruum-yleval" for="sugu">VALI SUGU</label></strong> <br>
+            <select name="Sugu" id="sugu" >
+                 <option value="naine">Naine</option>
+                 <option value="mees">Mees</option><br>
+            </select> <br>
+
+            <input type="checkbox">
+            <label for="">Olen nõus enda infot saatma</label> <br>
+            <div class="nupudevahe">
+            <input class="placeholder, nupp" type="submit" value="Logi sisse">
+            <input class="nupp"class="ruum-yleval"type="reset">
             
-            
-            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-            <label class="checkbox" for="vehicle1"></label>
-<label for="vehicle1">Olen nõus enda infot saatma</label><br>
-<input type="submit" value="Submit">
-
-
-<p>Vali palun alltoodud valikute seast enda lemmik puuvili</p>
-
-<form action="/action_page.php">
-  <label for="puuvili">Vali puuvili:</label>
-  <select name="puuvili" id="puuvili">
-    <option value="mango">Mango</option>
-    <option value="apelsin">Apelsin</option>
-    <option value="banaan">Banaan</option>
-    <option value="kreegid">Kreegid</option>
-  </select>
-  <br><br>
-  <input type="submit" value="Submit">
-</form>
+            </div>
         </form>
-    </h1>
-</div>
+        <a href="https://irise-portfoolio-app.herokuapp.com/">TAGASI</a>
+    </div>
+   
 </body>
-
 </html>
