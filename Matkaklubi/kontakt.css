@@ -127,6 +127,24 @@
 .container{
     padding-left: 10px;
 }
+.blokk {
+    min-width: 80%;
+}
+
+@media screen and (min-width: 600px) {
+    .blokk {
+        min-width: 50%;
+        width: 50%;
+    }.blokk {
+        min-width: 100%;
+    }
+    
+    @media screen and (min-width: 600px) {
+        .blokk {
+            min-width: 50%;
+            width: 50%;
+        }
+    }
 .pealispilt .vari {
     width: 1087px;
     height: 87px;
