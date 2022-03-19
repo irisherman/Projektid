@@ -11,7 +11,7 @@ if (kasutajaNimi.length <6) {
 } 
 
 if (kasutajaNimi.length >6) {
-    tervitus = "Küll sul on  suurepärane pikk nimi"
+    tervitus = "Küll sul on suurepärane pikk nimi"
 }  
 
 
@@ -25,7 +25,7 @@ if (kasutajaNimi == "Nipitiri") {
 
 tervitus  = tervitus + "<h2>Tähed sinu nimes</h2>"
 
-for (let index = 1; index < kasutajaNimi.length; index++) {
+for (let index = 0; index < kasutajaNimi.length; index++) {
     tervitus += "<div>Täht nr " + index + ": " + kasutajaNimi[index] + "</div>"
 }
 
