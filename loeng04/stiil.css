@@ -33,11 +33,7 @@ main {
     height: max-content;
     background-color: blanchedalmond;
 }
-.menu{
-    width: 85%;
-    height: 100%;
-    float: left;
-}
+
 .pildiga-blokk {
     display: flex;
     width: 400px;
