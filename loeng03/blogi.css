@@ -1,0 +1,89 @@
+
+body {
+    display: flex;
+    align-content: center;
+    background-image: url('taustapilt.jpg');
+    background-size: cover;
+    font-family: Roboto, sans-serif;
+    color: black;
+  }
+.konteiner{
+    width: 100%;
+    max-width: 1200px;
+    max-height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.blokk{
+    width: 350px ;
+    background-color: rgba(238, 238, 238, 0.767);
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.281);
+    margin: 5px;
+    padding: 10px;
+    overflow:auto;
+    border-radius: 1%;
+    }
+
+.uudis-kuupaev{
+        font-style: italic;
+        color: rgb(0, 0, 0);
+        font-size: 12px;
+       
+  }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+
+h1, h2{
+    color: black;
+   font-weight: 700;
+    font-family: Karla, sans-serif
+}
+.nupp {
+    background-color: rgb(196, 160, 0);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    
+  }
+
+  .nupp:hover {
+    background-color: rgb(110, 109, 32); 
+    color: white;
+  }
+  
+
+  .pilt {
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+  
+@media only screen and (max-width: 576px) {
+    .blokk {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .konteiner{
+      width: 100%;
+  }

@@ -17,15 +17,16 @@ h1, h2{
 .konteiner {
     width: 80%;
     max-width: 1000px;
-    background-color: lightgrey;
+    background-color: rgba(238, 238, 238, 0.767);
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
     margin-top: 30px;
+    border-radius: 1%;
     }
 
 .uudis-autor, .uudis-kuupaev{
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: rgb(21, 21, 87);
     font-size: bold;
     display: inline-block;
@@ -37,4 +38,46 @@ h1, h2{
 }
 .uudis-sisu{
     font-size: 1.2rem;
+
+.veerg1 {
+        vertical-align: top;
+        width: 60%;
+        display:inline-block;
+    }
 }
+.uudis-autor{
+    font-style: italic;
+    text-align: left;
+    
+}
+.nupp {
+    background-color: rgb(196, 160, 0);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    margin-top: 55px;
+  }
+
+  .nupp:hover  {
+    background-color: rgb(110, 109, 32); 
+    color: white;
+    
+  }
+  .pildiasukoht {
+    display: block;
+    margin-left: auto;
+    margin-right: 20px;
+    width: 50%;
+  }
+  .thumb {
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 50px;
+    width: 10%;
+
+  }
